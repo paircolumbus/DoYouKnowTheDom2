@@ -1,7 +1,52 @@
-.container {
+.container
+{
   margin: 0 auto;
-  /*Put your code here*/
 }
 
-/* & here */
+/* Took me about 20 minutes; had to look up a couple of things online :/ */
 
+header
+{
+	margin-left: 50px;
+}
+
+nav
+{    
+  width: 150px;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+.content
+{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  border-left: 1px solid;
+}
+
+.content section
+{
+	width: 585px;
+	margin-left: 20px;
+}
+
+footer
+{
+	margin-left: 50px;
+	width: 800px;
+	border-top: 1px solid;
+}
+
+footer p
+{
+	margin-left: 110px;
+}
