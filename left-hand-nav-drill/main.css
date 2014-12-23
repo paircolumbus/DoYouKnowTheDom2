@@ -3,5 +3,33 @@
   /*Put your code here*/
 }
 
+header {
+  padding-left: 40px;
+}
+
+nav {
+  margin-top: 0;
+}
+
+ul {
+  float: left;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+.content {
+  width: 800px;
+  float: left;
+  border-left: 1px solid black;
+  margin: 0 0 0 0;
+  padding: 0 0 0 15px;
+}
+
+footer {
+  clear: both;
+  width: 1000px;
+  border-top: 1px solid black;
+  padding-left: 145px;
+}
 /* & here */
 
