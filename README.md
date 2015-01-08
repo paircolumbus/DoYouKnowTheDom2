@@ -10,10 +10,10 @@ It's easy to overlook the importance of HTML & CSS but knowledge of the DOM is i
 
 For this challenge, time yourself and see how quickly you can develop a solution where the `index.html` mimics the image above. __NOTE:__ You should only have to edit the `main.css` file
 
-##EXTRA CREDIT: Use SASS
-For extra credit install and complete the challenge using SASS. You'll find a link on installing SASS in the resources below.
+##Extra Credit
+Rewrite and complete this challenge from scratch in both HAML & Sass. Submit a branch with both the precompiled `.haml` & `.sass` and their html/css files.
 
 ##Resources:
-  - [Install SASS](http://sass-lang.com/install)
   - [What's the DOM?](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-
+  - [HAML](http://haml.info/)
+  - [Sass](http://sass-lang.com/)
