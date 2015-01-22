@@ -1,6 +1,25 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+	width: 900px;
+}
+
+.container > nav {
+	float: left;
+	width: 250px;
+}
+
+.container > .content {
+	float: right;
+	width: 650px;
+	border-left: 1px solid black;
+	box-sizing: border-box;
+	padding: 0 0 1em 1em;
+}
+
+.container > footer {
+	clear: both;
+	border-top: 1px solid black;
+	padding-left: 250px;
 }
 
 /* & here */
