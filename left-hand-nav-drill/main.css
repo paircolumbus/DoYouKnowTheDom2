@@ -1,7 +1,38 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+  width: 1000px;
 }
 
 /* & here */
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container > nav {
+  position: absolute;
+  width: 200px;
+}
+
+.container > nav li {
+  list-style: none;
+}
+
+.container > .content {
+  margin-left: 200px;
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+footer > p {
+  float: right;
+  width: 80%;
+}
