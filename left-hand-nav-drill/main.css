@@ -5,20 +5,16 @@
 
 /* & here */
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 .container > nav {
   position: absolute;
   width: 200px;
 }
 
-.container > nav li {
+.container > nav > ul {
+  padding-left: 0;
+}
+
+.container > nav > ul > li {
   list-style: none;
 }
 
@@ -26,6 +22,11 @@ html {
   margin-left: 200px;
   padding-left: 10px;
   border-left: 1px solid black;
+}
+
+section > p {
+  margin: 0;
+  padding-bottom: 16px;
 }
 
 footer {
