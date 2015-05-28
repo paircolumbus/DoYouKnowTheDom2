@@ -1,7 +1,31 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+  position: relative;
 }
 
-/* & here */
+header {
+	padding-left: 3%;
+}
+
+.content {
+	border-bottom: solid black;
+	padding-left: 12%;
+	width: 45%;
+}
+
+nav {
+	background-color: white;
+	float: left;
+	width: 10%;
+	height: 494px;
+	border-right: solid black;
+}
+
+nav ul {
+	list-style: none;
+}
+
+footer {
+	padding-left: 10%;
+}
 
