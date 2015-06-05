@@ -1,40 +1,31 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
-  display: grid;
-  grid-columns: 10px 1fr;
-  grid-rows: 100px auto 100px;
-}
-
-/* & here */
-header, footer {
-  grid-column-span: all;
 }
 
 header {
-  grid-row: 1;
-  margin-left: 100px;
+  padding-left: 45px;
 }
 
 nav {
-  grid-row: 2;
-  grid-column: 1;
-  border-bottom: solid black 2px;
+  float: left;
+  width: 12%;
+  display: inline;
 }
+
 nav ul li {
   list-style-type: none;
 }
 
 .content {
-  grid-row: 2;
-  grid-column: 2;
-  padding-left: 10px;
   border-left: solid black 2px;
-  border-bottom: solid black 2px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 75%;
 }
 
 footer {
-  width: 100%;
-  grid-row: 3;
-  margin-left: 100px;
+  padding-left: 100px;
+  margin-left: 42px;
+  border-top: solid black 2px;
+  width: 75%;
 }
