@@ -1,0 +1,28 @@
+$line: solid black 2px;
+
+.container {
+  margin: 0 auto;
+  header {
+    padding-left: 45px;
+  }
+  nav {
+    float: left;
+    width: 12%;
+    display: inline;
+    ul li {
+      list-style-type: none;
+    }
+  }
+  .content {
+    border-left: $line;
+    padding-left: 10px;
+    display: inline-block;
+    width: 75%;
+  }
+  footer {
+    border-top: $line;
+    padding-left: 100px;
+    margin-left: 42px;
+    width: 75%;
+  }
+}

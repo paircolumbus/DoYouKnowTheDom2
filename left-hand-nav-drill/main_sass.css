@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto; }
+  .container header {
+    padding-left: 45px; }
+  .container nav {
+    float: left;
+    width: 12%;
+    display: inline; }
+    .container nav ul li {
+      list-style-type: none; }
+  .container .content {
+    border-left: solid black 2px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 75%; }
+  .container footer {
+    border-top: solid black 2px;
+    padding-left: 100px;
+    margin-left: 42px;
+    width: 75%; }
+
+/*# sourceMappingURL=main_sass.css.map */
