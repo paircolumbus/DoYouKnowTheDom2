@@ -3,5 +3,37 @@
   /*Put your code here*/
 }
 
-/* & here */
+header {
+  width: 100vw;
+  font-size: 25px;
+  font-weight: bold;
+  float:left;
+  display: block;
+}
 
+nav {
+  vertical-align: top;
+  min-width: 20vw;
+  min-height: 80vh;
+  max-height: 80vh;
+  border-bottom: solid 2px black;
+  display: inline-block;
+}
+
+ul {
+  top: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: relative;
+  list-style: none;
+}
+
+.content {
+  padding-left: 20px;
+  max-width: 70vw;
+  min-height: 80vh;
+  max-height: 80vh;
+  display: inline-block;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black;
+}
