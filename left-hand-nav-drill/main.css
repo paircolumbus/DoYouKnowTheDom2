@@ -1,6 +1,49 @@
+section h1 {
+	margin-top: 0em;
+}
+
 .container {
   margin: 0 auto;
   /*Put your code here*/
+  width: 725px;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav ul {
+	display: inline-block;
+	width: 80px;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+nav ul li {
+	text-align: left;
+}
+
+.content {
+	display: inline;
+}
+
+section {
+	width: 585px;
+	float: right;
+	border-left: 1px solid black;
+	padding-left: 15px;
+}
+
+footer {
+	border-top: 1px solid black;
+	display: inline-block;
+	width: 750px;
+	margin: 0 auto;
+}
+
+footer p {
+	margin-left: 125px;
 }
 
 /* & here */
