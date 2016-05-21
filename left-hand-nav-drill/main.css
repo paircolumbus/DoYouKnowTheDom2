@@ -1,7 +1,49 @@
 .container {
+  padding-top: 20px;
   margin: 0 auto;
-  /*Put your code here*/
+  width: 728px;
 }
 
-/* & here */
+h1, h2 {
+  margin: 0;
+}
 
+header h1 {
+  margin-bottom: 20px;
+}
+
+nav {
+  width: 120px;
+  float: left;
+}
+
+nav ul {
+  margin: 0 0 0 -38px;
+  list-style-type: none;  
+}
+
+section {
+  margin-top: 30px;
+}
+
+section:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.content {
+  float: left;
+  width: 586px;
+  padding: 0 0 5px 20px;
+  border-left: 1px solid #444;
+  margin-bottom: -1px;
+}
+
+footer {
+  float: left;
+  border-top: 1px solid #444;
+  width: 100%;
+}
+
+footer p {
+  margin-left: 122px;
+}
