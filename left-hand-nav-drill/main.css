@@ -1,6 +1,36 @@
-.container {
+su.container {
   margin: 0 auto;
   /*Put your code here*/
+}
+
+header{
+  margin-left: 5%;
+}
+
+nav{
+  display: inline;
+  float: left;
+  margin-left: 5%;
+}
+
+ul{
+  list-style-type: none;
+  vertical-align: left;
+  display: inline;
+}
+
+.content{
+  border-left-style: solid;
+  margin-left: 20%;
+  padding-left: 25px;
+  margin-right: 10%;
+}
+section{
+  display: inline;
+}
+
+footer{
+  border-top-style: solid;
 }
 
 /* & here */
