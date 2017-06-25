@@ -1,7 +1,36 @@
 .container {
-  margin: 0 auto;
-  /*Put your code here*/
+  margin: 0 40px;
+  display: inline-block;
 }
 
-/* & here */
+header {
+  width: 100%;
+}
 
+nav {
+  width: 25%;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.content {
+  width: 70%;
+  padding-left: 12pt;
+  float: left;
+  border-left: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  border-top: 1px solid black;
+}
+
+footer p {
+  margin-left: 25%;
+  margin-right: 5%;
+}

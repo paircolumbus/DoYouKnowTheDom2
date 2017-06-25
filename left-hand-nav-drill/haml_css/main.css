@@ -1,0 +1,25 @@
+.container {
+  margin: 0 40px;
+  display: inline-block; }
+  .container header {
+    width: 100%; }
+  .container nav {
+    width: 25%;
+    float: left; }
+    .container nav ul {
+      list-style-type: none;
+      padding-left: 0; }
+  .container .content {
+    width: 70%;
+    padding-left: 12pt;
+    float: left;
+    border-left: 1px solid black; }
+  .container footer {
+    width: 100%;
+    float: left;
+    border-top: 1px solid black; }
+    .container footer p {
+      margin-left: 25%;
+      margin-right: 5%; }
+
+/*# sourceMappingURL=main.css.map */
