@@ -1,7 +1,39 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+  width: 1000px;
 }
 
 /* & here */
 
+.container > nav {
+  position: absolute;
+  width: 200px;
+}
+
+.container > nav > ul {
+  padding-left: 0;
+}
+
+.container > nav > ul > li {
+  list-style: none;
+}
+
+.container > .content {
+  margin-left: 200px;
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+section > p {
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+footer > p {
+  float: right;
+  width: 80%;
+}
