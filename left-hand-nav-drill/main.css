@@ -1,7 +1,24 @@
 .container {
-  margin: 0 auto;
-  /*Put your code here*/
-}
+  margin: auto;
+  width: 40%; }
 
-/* & here */
+nav, .content {
+  display: table-cell; }
 
+nav {
+  padding-right: 40px;
+  border-right: 1px solid black; }
+
+ul {
+  list-style-type: none;
+  padding-left: 0px; }
+
+.content {
+  padding-left: 10px; }
+
+footer {
+  border-top: 1px solid black; }
+  footer p {
+    margin-left: 100px; }
+
+/*# sourceMappingURL=main.css.map */
