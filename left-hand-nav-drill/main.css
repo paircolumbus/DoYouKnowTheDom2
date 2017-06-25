@@ -1,7 +1,39 @@
+* {
+  box-sizing: border-box; }
+
 .container {
   margin: 0 auto;
   /*Put your code here*/
-}
+  width: 600px; }
 
-/* & here */
+header {
+  position: relative;
+  width: 100%; }
 
+nav {
+  float: left;
+  width: 25%;
+  vertical-align: top; }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      float: top; }
+
+.content {
+  float: right;
+  width: 75%;
+  vertical-align: top;
+  border-left: solid black 2px;
+  padding-left: 20px; }
+
+footer {
+  clear: both;
+  float: right;
+  width: 100%;
+  border-top: solid black 2px; }
+  footer p {
+    margin-left: 25%; }
+
+/*# sourceMappingURL=main.css.map */
