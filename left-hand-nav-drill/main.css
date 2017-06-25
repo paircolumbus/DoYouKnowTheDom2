@@ -1,7 +1,22 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+}
+
+nav {
+  width: 25%;
+  min-width: 150px;
+  float: left;
+}
+
+.content {
+  margin-left: 30%;
+  width: 70%;
+  border-left:5px solid #000;
+}
+
+footer {
+  border-top:5px solid #000;
+  padding-left: 30%;
 }
 
 /* & here */
-
