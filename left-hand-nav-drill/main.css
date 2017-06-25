@@ -3,5 +3,29 @@
   /*Put your code here*/
 }
 
-/* & here */
+header {
+	margin-left: 15px;
+}
 
+/* & here */
+nav {
+	width: 150px;
+	float: left;
+	margin-right: 15px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.content {
+	margin-left: 135px;
+	padding: 15px;
+	border-left-style: solid;
+}
+
+footer {
+	border-top-style: solid;
+	padding-left: 135px;
+	float: center;
+}
