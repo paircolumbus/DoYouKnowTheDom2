@@ -1,7 +1,42 @@
-.container {
+.container
+{
+  width: 75%;
   margin: 0 auto;
-  /*Put your code here*/
 }
 
-/* & here */
+section
+{
+  display: inline;
+}
 
+header
+{
+  margin: 25px 25px 25px 40px;
+}
+
+nav
+{
+  display: inline;
+  float: left;
+  margin-left: 40px;
+}
+
+ul
+{
+  list-style-type: none;
+  vertical-align: left;
+  display: inline;
+}
+
+.content
+{
+  border-left: 1px solid black;
+  margin: 0 60px 0 150px;
+  padding: 0 10px 5px;
+}
+
+footer
+{
+  border-top: 1px solid black;
+  padding-left: 100px;
+}
