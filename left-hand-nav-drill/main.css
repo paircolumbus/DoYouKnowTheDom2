@@ -1,7 +1,45 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+  
 }
 
 /* & here */
 
+ul {
+	list-style-type: none;
+	margin: 2px;
+    padding: 0;
+}
+
+li {
+  
+}
+
+header{
+	padding-bottom: 1%;
+}
+
+section {
+	margin-left: 1%;
+}
+
+footer {
+	margin-left: 1%;
+	border-style: solid;
+    border-width: 1px;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    padding-left: 7%;
+}
+
+.content{
+	margin-top: -7%;
+	border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    margin-left: 8%;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
