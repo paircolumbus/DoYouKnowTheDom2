@@ -1,7 +1,56 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+  
+  display: flex;
+  flex-flow: row wrap;
+
+  max-width: 50rem;
+  width: 100%;
 }
 
 /* & here */
 
+
+/* header */
+header {
+  flex: 1 100%;
+  order: 1;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+
+/* navigation */
+nav {
+  order: 2;
+  width: 9rem;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+/* content */
+.content {
+  border-left: 1px solid #000;
+
+  /* layout */
+  padding: 0 1em;
+  flex: 1;
+  order: 3;
+}
+
+
+/* footer */
+footer {
+  border-top: 1px solid #000;
+
+  /* layout */
+  padding-left: 9rem;
+  flex: 1 100%;
+  order: 4;
+}
