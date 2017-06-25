@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  /*Put your code here*/
+  width: 80%;
+}
+
+/* & here */
+$separator: solid black 1px;
+$nav_width: 10%;
+$content_width: 90% - $nav_width;
+
+nav {
+    float: left;
+    width: $nav_width;
+    li {
+        list-style: none;
+    }
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+.content {
+    float: left;
+    width: $content_width;
+    border-left: $separator;
+    padding-left: 1em;
+}
+
+footer {
+    clear: both;
+    border-top: $separator;
+
+    p {
+        margin-left: $nav_width;
+    }
+}
+
+
