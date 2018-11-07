@@ -1,7 +1,32 @@
 .container {
   margin: 0 auto;
-  /*Put your code here*/
+  display: grid;
+  grid-template-columns: 20%;
+  grid-template-rows: 10%;
 }
 
-/* & here */
+header {
+  grid-area: 1/1/1/11;
+  padding: 1% 2%;
+}
 
+nav {
+  grid-area: 2/1/10/2;
+  padding: 2%;
+  border-bottom: 1px solid black;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+.content {
+  grid-area: 2/2/10/11;
+  padding: 0 5% 0 2%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  grid-area: 10/2/10/11;
+}
